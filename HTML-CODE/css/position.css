@@ -1,0 +1,38 @@
+.pos{
+    background-color: darkslategray;
+    text-align: justify;
+    padding-top:20px ;
+    padding-left:20px;
+    padding-bottom: 20px;
+    overflow-y:scroll ;
+}
+body{
+    bottom: 1000px;
+}
+.static{
+    color: white;
+    position: static;
+    border: 3px solid yellow;
+}
+.relative{
+    position: relative;
+    border: 2px solid yellow;
+    left: 20px;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    width:100%;
+    text-align: center;
+    padding :10px
+}
+.relatives{
+    position: relative;
+    border: 3px solid yellow;
+}
+.stickey{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+}

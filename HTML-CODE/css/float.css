@@ -1,0 +1,38 @@
+.float{
+    padding: 30px;
+    background-color: #2c363f;
+    color: #fff;
+}
+.float > img{
+    float: right;
+    background: orange;
+    padding: 10px;
+    margin: 20px;
+}
+.exa{
+    text-align: center;
+    padding: 20px 0;
+    width: 100px;  
+}
+.red{
+    background-color: red;
+    float:left;
+}
+.yellow{
+    background-color: yellow;
+    float:right;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+    float: left;
+}
+.orange{
+    background-color: orange;
+    float: left;
+}

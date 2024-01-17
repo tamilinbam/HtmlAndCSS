@@ -1,0 +1,47 @@
+.button{
+    background-color: rgb(50, 126, 239);
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family:Arial;
+    margin-left: 10px;
+}
+.gojo{
+    font-weight:bold;
+    font-family:Arial;
+    line-height: 2px;
+    padding-left: 10px;
+}
+.friends{
+    font-family:Arial;
+    opacity: 0.8;
+    padding-left: 10px;
+}
+.image{
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    vertical-align: top;
+    margin-right: 15px;
+    height: 240px;
+    border-radius:5px;
+    display: inline-block;
+}
+.photo{
+    width: 175px;
+    margin-left:10px ;
+    margin-top: 10px;    
+    border-radius:5px;
+}
+.button:hover{
+    background-color: rgb(109, 163, 243);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.button:active{
+    background-color:blue;
+}
+.photo:hover{
+    cursor:pointer;
+}

@@ -1,0 +1,156 @@
+body{
+    background-image: url(/shoping-website/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg);
+    background-size:100%;
+}
+.header{
+    display:flex;
+    width:100%;
+    height:60px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    border-radius: 5px;
+    margin-top:10px;
+    font-size: 16px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.power{
+    font-size: 10px;
+}
+.name{
+    margin-left: 10px;
+    
+}
+.search{
+    display:flex;
+    justify-content: space-between;
+}
+.text{
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    border-radius:5px;
+    border:0;
+    margin:0;
+}
+.icon{
+    width:35px;
+    background-color: white;
+    border-radius: 5px;
+}
+.profile-side{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+.user{
+    width:25px;
+    margin-left:20px ;
+    background-color: white;
+    border-radius: 20px;
+}
+.notification{
+    width:25px;
+}
+.all-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.image {
+    display: flex;
+    margin-top: 60px;
+    margin-left:40px;
+    border-radius:10px;
+    height: 600px;
+    width: 800px;
+    box-shadow: 0 0 10px   rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+.image-info {
+    display: flex;
+    width:500px;
+    margin-top:20px;
+    margin-right:40px;
+    border-radius:10px;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.review:nth-child(3) {
+    display: flex;
+    margin-top:40px;
+    flex-direction: column;    
+    height:500px;
+    margin-top:40px;
+    margin-right:40px;
+    margin-left:40px;
+    box-shadow: 0 0 10px   rgba(0, 0, 0, 0.1);
+    flex-basis: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nike{
+    width: 70%;
+    height:90%;
+    border-radius:10px;
+}
+.brand-nike{
+    font-size:x-large;
+    color: rgb(0, 14, 79)
+}
+.brrr{
+    color:rgb(0, 108, 108);
+}
+.brand{
+    margin: 20px;
+    border-radius:5px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px   rgba(0, 0, 0, 0.1);
+    padding:30px;
+}
+.span1{
+    color:brown;
+    font-size: xx-large;
+}
+.span2{
+    font-size: x-large;
+}
+.span3{
+    font-size: small;
+}
+.span4{
+    font-size:x-large;
+    color:rgb(1, 102, 113);
+}
+.price{
+    margin: 0px 20px 20px 20px ;
+    border-radius:5px;
+    box-shadow: 0 0 10px   rgba(0, 0, 0, 0.1);
+    padding:30px;
+}
+.offer{
+     margin: 0px 20px 20px 20px ;
+     border-radius:5px;
+     box-shadow: 0 0 10px   rgba(0, 0, 0, 0.1);
+     padding:30px;
+}
+.span6{
+    margin: 20px;
+}
+.cus1{
+    margin:20px;
+}
+.cus2{
+    margin:20px;
+}
+.cus3{
+    margin:20px;
+}
+.reviewe1{
+    font-size: large;
+}

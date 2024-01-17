@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 13px;
+}
+.header{
+    display:flex;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+    flex: 500px;
+}
+.mi{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-between;
+    flex: 50px;
+    margin-right: 20px;
+}
+.intro{
+    font-size: 30px;
+    margin-top:200px;
+}
+.para{
+    display: flex;
+}
+.photo{
+    width: 700px;
+    height:400px;
+    margin-top:70px ;
+    margin-left:0%;
+}
+.fff{
+    display: flex;
+    width: 1200px;
+    margin-left: 200px;
+}
+.view{
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+}
+.view:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.view:active{
+    background-color: blanchedalmond;
+    width: 27%;
+    height: 27px;
+}

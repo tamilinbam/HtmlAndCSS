@@ -1,0 +1,183 @@
+body{
+    background-size: 100%;
+}
+.header{
+    display:flex;
+    width:100%;
+    height:60px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    border-radius: 5px;
+    margin-top:10px;
+    font-size: 16px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.power{
+    font-size: 10px;
+}
+.name{
+    margin-left: 10px;
+    
+}
+.search{
+    display:flex;
+    justify-content: space-between;
+}
+.text{
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    border-radius:5px;
+    border:0;
+    margin:0;
+}
+.icon{
+    width:35px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.profile-side{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+.user{
+    width:25px;
+    margin-left:20px ;
+    background-color: white;
+    border-radius: 20px;
+}
+.notification{
+    width:25px;
+}
+.shoes{
+    display:flex;
+    width: auto;
+    height:auto;
+    margin-top: 30px;
+    justify-content:space-between;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    color: white;
+    font-family: Arial;
+    margin-left: 20px;
+}
+.content{
+    font-family:'Trebuchet MS';
+}
+.product3{
+    margin: 30px;
+    display: flex;
+    flex-direction:column;
+    width:300px;
+    height:450px;
+    border-radius: 20px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+    align-items: center;
+    justify-content: center;
+    border:0;
+    transition-property: transform ;
+    transition-duration:0.3s;
+    transition-timing-function: easy;
+    transition-delay: 0s;
+}
+.product2{
+    margin: 30px;
+    display: flex;
+    flex-direction:column;
+    width:300px;
+    height:450px;
+    border-radius: 20px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+    align-items: center;
+    justify-content: center;
+    border:0;
+    transition-property: transform ;
+    transition-duration:0.3s;
+    transition-timing-function: easy;
+    transition-delay: 0s;
+}
+.product1{
+    margin: 30px;
+    display: flex;
+    flex-direction:column;
+    width:300px;
+    height:450px;
+    border-radius: 20px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+    border:0;
+    justify-content: center;
+    align-items: center;
+    /*transition-property: transform ;
+    transition-duration:0.3s;
+    transition-timing-function: easy;
+    transition-delay: 0s;*/
+    
+}
+.shoes1{
+    height: 260px;  
+    border-radius:5px;
+}
+.info{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    font-size: 20px;
+}
+@keyframes slideIntop {
+    from{
+        transform: translateY(600px);
+    }
+    to{
+        transform:translateY(0px);
+    }
+    
+}
+.product1{
+    animation: slideIntop 500ms ease-in 1ms 1 normal both;
+    transform:translateY(600px);
+}
+.product2{
+    animation: slideIntop 600ms ease-in 1ms 1 normal both;
+    transform:translateY(600px);
+}
+.product3{
+    animation: slideIntop 700ms ease-in 1ms 1 normal both;
+    transform:translateY(600px);
+}
+.shoes1:hover {
+    height:500px;
+    transition:ease-in-out 1s;
+}
+.user:hover{
+    width: 35px;
+}
+@keyframes lefttoright {
+    from{
+        transform:translateX(-300px)
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+.content {
+    animation:lefttoright 1s ease-in 1ms 1 normal both;
+}
+.heading{
+    animation:lefttoright 500ms ease-in 1ms normal both;
+}
+.innerlink {
+    text-decoration: none;
+} 

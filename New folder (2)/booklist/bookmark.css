@@ -1,0 +1,106 @@
+*{
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    background:#5f5f5f;
+    padding:5px;
+    color: #f2f2f2;
+}
+.container{
+    padding: 10px;
+}
+.content{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 5px;
+    color :#f2f2f2;
+    margin:30px;
+}
+.container h1 {
+    color:blue
+}
+.container button{
+    background-color: gray;
+    color:rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 5px;
+    border:none; 
+}
+.plus {
+    background-color: #5f5f5f;
+    color: #f2f2f2;
+    font-size: 30px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding:30px;
+}
+.popup{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: none;
+}
+.boxpop{
+    background-color: #5f5f5f;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.boxpop input{
+    border: none;
+    background-color: rgb(176, 175, 175);
+    width: 100%;
+    margin: 5px;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.boxpop textarea{
+    border: none;
+    background-color: rgb(179, 177, 177);
+    width: 100%;
+    margin: 5px;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.boxpop input::placeholder{
+    color:#f2f2f2;
+}
+.boxpop textarea::placeholder{
+    color:#f2f2f2;
+}
+.boxpop button{
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+.boxpop p1{
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.boxpop input:focus{
+    outline: none;
+}
+.boxpop textarea:focus{
+    outline: none;
+}

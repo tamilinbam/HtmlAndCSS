@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes slideInleft {
+            from{
+                transform:translate(600px) ;
+            }
+            to{
+                transform : translate(0);
+            }
+        }
+        .hello{
+            font-size:2rem;
+            font-weight:700;
+            padding:0.5em 1em;
+            color: var(--clr-accent);
+            background-color: var(--clr-rgba);
+            border: 10px solid var(--clr-accent);
+            border-radius:5px;
+             
+            animation-name:slideInleft;
+            animation-duration:2s;
+            animation-timing-function: ease-in;
+            animation-delay:0s;;
+            animation-iteration-count:1;
+            animation-direction:reverse;
+            animation-fill-mode:both;
+            transform: translateX(600px);
+            /*transition-property: transform;
+            transition-duration:0.3s;
+            transition-timing-function: easy;
+            transition-delay: 0s;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="hello"> 
+        <button>okkk </button>    </div>
+</body>
+</html>
